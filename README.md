@@ -12,6 +12,7 @@ For this project, I was tasked with refactoring the source code for Horiseon's w
     <li>*orangized CSS rules by positioning global attributes at the top of the stylesheet, followed by rules pertaining to semantic elements by order in which they appear on the page</li>
     <li>*added descriptive comments to HTML and CSS files to help with code navigation</li>
     </ul>
+    
 ![Imageoutput](./assets/images/horiseon_homepage.png)
 
 
