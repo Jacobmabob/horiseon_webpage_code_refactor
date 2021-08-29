@@ -1,3 +1,6 @@
+/* css rules are ordered by how they appear on the page */
+
+/* this first section contains the more global rules */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +10,17 @@
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* heaeder section styling */
 
 header {
     padding: 20px;
@@ -41,14 +55,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* background image styling */
 
 .hero {
     height: 800px;
@@ -59,7 +66,7 @@ p {
     background-position: center;
 }
 
-/* contains main section stylings*/
+/* main section styling */
 
 .float-left {
     float: left;
@@ -95,6 +102,8 @@ main section h2 {
     font-size: 36px;
 }
 
+/* aside section stylings */
+
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -105,8 +114,6 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-/* contains aside section stylings*/
 
 aside section {
     margin-bottom: 32px;
@@ -124,7 +131,7 @@ aside section img {
     max-width: 150px;
 }
 
-/* contains footer styling*/
+/* footer styling */
 
 footer {
     padding: 30px;
